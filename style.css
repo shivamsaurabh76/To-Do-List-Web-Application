@@ -1,0 +1,24 @@
+body {
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+.task-list {
+    max-width: 500px;
+    margin: auto;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+/* Align buttons in the same line */
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-group {
+    display: flex;
+}
